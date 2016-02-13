@@ -1,6 +1,10 @@
 $(window).load(function() {
     $('.loader-icon').removeClass('spinning-cog').addClass('shrinking-cog');
-    $('.loader-background').delay(500).fadeOut(); 
+    $('.loader-background').animate({
+        opacity: 0
+    }, function () {
+        $('#loader').css('display', 'none');
+    });
 });
 
 

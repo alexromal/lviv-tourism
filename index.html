@@ -7,11 +7,10 @@
 <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Title</title>
+  <title>Львів Туристичний</title>
   <meta name="description" content="">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="shortcut icon" href="favicon.png"> -->
   <link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="libs/font-awesome-4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -19,6 +18,24 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=latin,cyrillic' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic' rel='stylesheet'>
   <link rel="stylesheet" href="libs/preloader/cog.css">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#fff">
+  <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#fff">
 </head>
 <body>
 
@@ -81,49 +98,6 @@
   </div>
 
 
-  <!-- <div class="container-fluid about">
-    <div class="container about-container">
-      <div class="row">
-        <div class="col-sm-12 about-title">
-          <h2>Коротко про нас</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam ipsum, commodo vel mauris at, tincidunt efficitur ligula. Morbi quis nibh eu augue vestibulum placerat in ut neque. Proin iaculis, leo luctus semper auctor, libero ligula rutrum mi, a aliquet magna libero id mi.</p>
-        </div>
-      </div>
-  
-      <div class="row about-block">
-        <div class="col-sm-6 about-img">
-          <img src="img/people.svg" alt>
-        </div>
-        <div class="col-sm-6 about-desc">
-          <h3>Великий досвід</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam ipsum, commodo vel mauris at, tincidunt efficitur ligula. Morbi quis nibh eu augue vestibulum placerat in ut neque. Proin iaculis, leo luctus semper auctor, libero ligula rutrum mi, a aliquet magna libero id mi.</p>
-        </div>
-      </div>
-  
-      <div class="row about-block">
-        <div class="col-sm-6 about-img">
-          <img src="img/hotel.svg" alt>
-        </div>
-        <div class="col-sm-6 about-desc">
-          <h3>Забезпечення хорошими готелями</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam ipsum, commodo vel mauris at, tincidunt efficitur ligula. Morbi quis nibh eu augue vestibulum placerat in ut neque. Proin iaculis, leo luctus semper auctor, libero ligula rutrum mi, a aliquet magna libero id mi.</p>
-        </div>
-      </div>
-  
-      <div class="row about-block">
-        <div class="col-sm-6 about-img">
-          <img src="img/car.svg" alt>
-        </div>
-        <div class="col-sm-6 about-desc">
-          <h3>Автомобільні екскурсії</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam ipsum, commodo vel mauris at, tincidunt efficitur ligula. Morbi quis nibh eu augue vestibulum placerat in ut neque. Proin iaculis, leo luctus semper auctor, libero ligula rutrum mi, a aliquet magna libero id mi.</p>
-        </div>
-      </div>
-  
-    </div> /.about-container
-  </div> /.about -->
-
-
   <div class="container-fluid excursions-title link" id="excursion">
     <div class="container">
       <div class="row col-sm-12">
@@ -143,7 +117,7 @@
           <div class="excursions-text">
             <h4>Львів. Нічна екскурсія</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam ipsum, commodo vel mauris at, tincidunt efficitur ligula. Morbi quis nibh eu augue vestibulum placerat in ut neque. Proin iaculis, leo luctus semper auctor, libero ligula rutrum mi, a aliquet magna libero id mi.</p>
-            <button class="bt bt-dark">Зареєструватися</button>
+            <button class="bt bt-dark" data-toggle="modal" data-target="#myModal">Зареєструватися</button>
           </div>
         </div>
 
@@ -152,7 +126,7 @@
           <div class="excursions-text">
             <h4>Львів. Личаківський цвинтар</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam ipsum, commodo vel mauris at, tincidunt efficitur ligula. Morbi quis nibh eu augue vestibulum placerat in ut neque. Proin iaculis, leo luctus semper auctor, libero ligula rutrum mi, a aliquet magna libero id mi.</p>
-            <button class="bt bt-dark">Зареєструватися</button>
+            <button class="bt bt-dark" data-toggle="modal" data-target="#myModal">Зареєструватися</button>
           </div>
         </div>
 
@@ -161,7 +135,7 @@
           <div class="excursions-text">
             <h4>Львів. Нічна екскурсія</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam ipsum, commodo vel mauris at, tincidunt efficitur ligula. Morbi quis nibh eu augue vestibulum placerat in ut neque. Proin iaculis, leo luctus semper auctor, libero ligula rutrum mi, a aliquet magna libero id mi.</p>
-            <button class="bt bt-dark">Зареєструватися</button>
+            <button class="bt bt-dark" data-toggle="modal" data-target="#myModal">Зареєструватися</button>
           </div>
         </div>
 
@@ -170,7 +144,7 @@
           <div class="excursions-text">
             <h4>Львів. Личаківський цвинтар</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam ipsum, commodo vel mauris at, tincidunt efficitur ligula. Morbi quis nibh eu augue vestibulum placerat in ut neque. Proin iaculis, leo luctus semper auctor, libero ligula rutrum mi, a aliquet magna libero id mi.</p>
-            <button class="bt bt-dark">Зареєструватися</button>
+            <button class="bt bt-dark" data-toggle="modal" data-target="#myModal">Зареєструватися</button>
           </div>
         </div>
 
@@ -179,7 +153,7 @@
           <div class="excursions-text">
             <h4>Львів. Нічна екскурсія</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quam ipsum, commodo vel mauris at, tincidunt efficitur ligula. Morbi quis nibh eu augue vestibulum placerat in ut neque. Proin iaculis, leo luctus semper auctor, libero ligula rutrum mi, a aliquet magna libero id mi.</p>
-            <button class="bt bt-dark">Зареєструватися</button>
+            <button class="bt bt-dark" data-toggle="modal" data-target="#myModal">Зареєструватися</button>
           </div>
         </div>
 
